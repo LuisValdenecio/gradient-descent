@@ -20,7 +20,7 @@ export default function Home() {
       <Introduction />
       <NavBar />
       <TableOfContents />
-      <Testimonial
+      {/*<Testimonial
         id="testimonial-from-tommy-stroman"
         author={{
           name: 'Tommy Stroman',
@@ -32,7 +32,6 @@ export default function Home() {
           “I didn’t know a thing about icon design until I read this book. Now I
           can create any icon I need in no time. Great resource!”
         </p>
-      </Testimonial>
       <Screencasts />
       <Testimonial
         id="testimonial-from-gerardo-stark"
@@ -47,10 +46,11 @@ export default function Home() {
           frustrated and gave up. Now I sell my own custom icon sets online.”
         </p>
       </Testimonial>
+          </Testimonial>*/}
       <Resources />
       <FreeChapters />
       <Pricing />
-      <Testimonials />
+      {/*<Testimonials />*/}
       <Author />
       <Footer />
     </>
